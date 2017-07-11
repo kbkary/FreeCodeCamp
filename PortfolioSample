@@ -1,0 +1,227 @@
+HTML CODE--------------------->>>>>>>>>>>>>>>>
+
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+
+<div class="container-fluid">
+   <div class="row topnav" id="myTopnav">
+     <h>kbkary</h>
+  <a href="#PORTFOLIO">PORTFOLIO</a>
+  <a href="#CONTACT">CONTACT</a>
+  <a href="#top">ABOUT</a>
+</div>
+  <br>
+    <div class="row about-style">
+    <div class="col-xs-8">
+      <p>Conformance Tester</p>
+      <p1 style="font-size:18px">1) Hands-on experience on Device Testing Simulators Anite 9000, Anritsu, R&S CMW500 and Comprion SIM Simulators. 2) GSM/UMTS/LTE/IMS 3) Good call processing & message flow knowledge as per 3GPP specs. 4) Programming Knowledge in Python and TTCN.</p1>
+    </div>
+    <div style="float:right;">
+      <img class="img-responsive thick-border" src="https://www.sanav.com/uploadfiles/9/proimages/ptcrb-gcf-dar-approvals-logo.jpg">
+    </div>
+  </div>
+  <div class="table-style">
+    <p id="PORTFOLIO">PORTFOLIO</p>
+  <table cellspacing="10">
+    <tr>
+    <td><img class="img-responsive" src="https://abm-website-assets.s3.amazonaws.com/wirelessdesignmag.com/s3fs-public/legacyimages/1002/Anite2_lrg.jpg"></td>
+    <td><img class="img-responsive" src="https://cdn.rohde-schwarz.com/pws/general/pictures/AVBrun_The-RSBTC-with-AVBrun-test-suite-software-offers-users-an-automated-test-environment_660.jpg"></td>
+    </tr>
+    <tr>
+    <td><img class="img-responsive" src="https://www.comprion.com/fileadmin/_processed_/csm_ctss_setup_general_4687cd8e3c.png"></td>
+    <td><img class="img-responsive" src="http://m2msupport.net/m2msupport/wp-content/uploads/2012/06/gcf.png"></td>
+    </tr>
+  </table>
+  </div>
+  <div class="row" style="background-color:#FAEBD7;margin:0;">
+    <p id="CONTACT">CONTACT ME</p>
+  <form style="margin:20px;">
+    <input type="text" placeholder="NAME" required><br>
+    <input type="text" placeholder="EMAIL ADDRESS" required><br>
+    <input type="text" placeholder="PHONE NUMBER" required><br>
+    <textarea placeholder="MESSAGE" required></textarea><br>
+    <button type="submit">SEND</button>
+    <form>
+      </div>
+    <div class="row web">
+      <div class="col-xs-6">
+        <h1>ABOUT THIS PAGE</h1>
+        <p2 style="font-size:18px;">Made as a FreeCodeCamp Project</p2>
+      </div>
+      <div class="col-xs-6">
+        <div class="row">
+        <h1>AROUND THE WEB</h1>
+        <a href="#"><i class="icon fa fa-instagram"></i></a>
+        <a href="#"><i class="icon fa fa-linkedin"></i></a>
+      </div>
+      <a href="#"><i class="icon fa fa-facebook"></i></a>
+      <a href="#"><i class="icon fa fa-twitter"></i></a>
+      </div>
+      </div>
+    </div>
+    <div class="row belownav">
+      <p3>kbkary &copy; 2017. All right reserved.</p3>
+    </div>
+</div>
+
+
+CSS CODE --------------------------->>>>>>>>>>>>>>>>
+
+* {
+  box-sizing:border-box;
+}
+
+p{
+  text-align:center;
+  font-size:25px;
+  font-family:sans-serif;
+  font-style:italic;
+  padding:20px;
+}
+
+h {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: line-through;
+    font-family: impact;
+    width:20%;
+    font-size: 25px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    margin:0;
+    width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:Lucida Sans Unicode;
+    font-size: 17px;
+    opacity:1;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: red;
+    color: white;
+}
+
+.about-style {
+  padding:60px;
+  margin:0;
+  background-color:#008080;
+  color:white;
+  width:100%;
+}
+
+.table-style {
+  padding:20px;
+  margin:0;
+  background-color:#D6EAF8;
+}
+
+.thick-border {
+  border-color:brown;
+  border-style:solid;
+  border-width:10px;
+}
+
+table, td {  
+    border: 1px solid pink;  
+    border-collapse: collapse;  
+}  
+
+td {
+  padding:10px 10px 10px 10px;
+}
+
+input {
+  width:50%;
+  margin:10px 300px;
+  padding:12px 20px;
+  border:1px solid;
+  border-radius:4px;
+}
+
+input:focus {
+  border:2px solid red;
+}
+
+textarea {
+  width:50%;
+  margin:10px 300px;
+  height:150px;
+  padding:12px 20px;
+  border:1px solid;
+  border-radius:4px;
+  resize:none;
+}
+
+textarea:focus {
+  border:2px solid red;
+}
+
+button {
+  width:25%;
+  margin:10px 300px;
+  padding:12px 20px;
+  border:1px solid;
+  border-radius:8px;
+}
+
+button:hover {
+    background-color: brown;
+    color: white;
+}
+
+.web {
+  padding:40px;
+  margin:0;
+  background-color:#008080;
+  color:white;
+  width:100%;
+  text-align:center;
+}
+
+.icon {
+  padding:5px;
+  margin:2px;
+  border:1px solid;
+  border-radius:50%;
+  background-color:white;
+}
+
+p3 {
+    color: black;
+    text-align:center;
+    font-family:impact;
+    font-size:25px;
+    color:white;
+}
+
+.belownav {
+    padding:10px;
+    background-color: #333;
+    overflow: hidden;
+    text-align:center;
+    margin:0;
+}
