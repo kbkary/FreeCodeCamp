@@ -1,0 +1,21 @@
+// Your code here!
+function uniteUnique(arr) {
+
+var args = Array.from(arguments);
+console.log(args);
+var arr_concat = args[0];
+for(let i=1;i<args.length;i++) {
+   arr_concat = arr_concat.concat(args[i]);
+}
+console.log(arr_concat);
+var unique_arr = [];
+arr_concat.forEach(function(element) {
+    if(unique_arr.includes(element) == false) {
+        unique_arr.push(element);
+    }
+});
+    console.log(unique_arr);
+  return unique_arr;
+}
+
+uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]);
